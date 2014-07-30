@@ -25,15 +25,27 @@ $ ruby counter.rb --reset
 
 ### Sample program output
 
+#### Step 1. Initialize
+
 ```
 $ cd lib
 $ ruby counter.rb
+```
+
+#### Step 2. Prompt screen
+
+```
 Loading hero matchup information from local data file
 Introduce the hero names you want to counter separated by a space
 ```
 
+#### Step 3. User input
 ```
 sven ursa
+```
+
+#### Step 4. Results
+```
 Slardar score: -0.49
 Omniknight score: -0.58
 Crystal Maiden score: -0.5800000000000001
@@ -58,3 +70,6 @@ Zeus score: -3.38
 
 ### HAPPY COUNTERING
 
+
+### Geek Data
+The scores are the sum of winrate of those heros against the heros you gave as input.
